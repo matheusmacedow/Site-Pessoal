@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Infinity</title>
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css"
+		integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw=="
+		crossorigin="anonymous" />
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap" rel="stylesheet">
+	<link rel="stylesheet" href="css/styles.css">
+	<link rel="shortcut icon" href="img/favico.png" type="image/x-icon">
+</head>
+<body>
+	<div onclick="subirTela()" class="scrollbutton">
+		<div></div>
+	</div>
+	<header>
+		<div class="menu-bg">
+			<div class="menu">
+				<div class="menu__logo">
+					<a href="index.html"><img src="img/logo.png" alt="logo"> </a>
+				</div> 
+				<div class="menu__mobile">
+					<div class="menu__mobile_bar"></div>
+					<div class="menu__mobile_bar"></div>
+					<div class="menu__mobile_bar"></div>
+				</div> 
+				<nav class="nav">
+					<ul class="nav__list">
+						<li><a href="#somos" class="nav__link">QUEM SOMOS</a></li>
+						<li><a href="#cursos" class="nav__link">NOSSOS CURSOS</a></li>
+						<li><a href="#planos" class="nav__link">PLANOS</a></li>
+						<li><a href="#vantagens" class="nav__link">VANTAGENS</a></li>
+					</ul> 
+				</nav> 
+			</div> 			
+		</div> 
+		<h1 class="intro">SUA JORNADA PARA O DOMÍNIO DIGITAL <br> COMEÇA AGORA!</h1>
+	</header>
+
+	<hr>
+
+	<section class="somos" id="somos">
+		<h2 class="section__titulo">Quem Somos</h2>
+		<div class="somos-c">
+			<div class="somos-c__texto">
+				<p>
+					ENTENDA E DOMINE OS CONHECIMENTO E HABILIDADES MAIS TRANSFORMADORAS DA ATUALIDADE, CRIE SOLUÇOES
+					PARA DESAFIOS REAIS DO MERCADO, IMPULSIONE SEU FUTURO EM UMA MULTIPLATAFORMA DIGITAL COM AULAS NA SUA 
+					MÍDIA PREFERIA. FAÇA NETWORKING COM GRANDES PLAYERS GLOBAIS, DESENVOLVA SUA PRÓPRIA STARTUP COM APOIO DE
+					DE ESPECIALISTAS E MUITO MAIS.
+				</p>
+				<br>
+				<p>
+					TUDO ISSO EM UM ECOSSISTEMA DE INOVAÇÕES CONECTDADO ÀS TECNOLOGIAS E TENDÊNCIAS QUE ESTÃO CONSTRUINDO O
+					AMANHÃ.
+				</p>
+			</div> 
+			<div class= "somos-c__img">
+				<img src="img/somos.png" alt="Quem Somos">
+			</div> 
+		</div>
+	</section> 
+
+	<hr>
+
+	<section class="cursos" id="cursos">
+		<h2 class="section__titulo">Nossos Cursos</h2>
+		<div class= curso-c>
+			<div class="curso">
+				<img class="curso__img" src="img/instagram.png" alt="Inteligência Artificial">
+				<h3 class="curso__titulo">Instagram Pro</h3>
+				<p class="curso__descricao">
+					Crie conteúdos impactantes, domine Reels virais, planeje um feed estratégico e transforme seguidores em clientes. Aprenda a analisar métricas e otimizar resultados!
+			</div> 
+			<div class="curso">
+				<img class="curso__img" src="img/facebook.png" alt="Frontend">
+				<h3 class="curso__titulo">Facebook Mastery</h3>
+				<p class="curso__descricao">
+					Desenvolva anúncios poderosos, campanhas segmentadas e copywriting persuasivo. Crie comunidades engajadas e explore as melhores ferramentas para conversões reais.
+				</p>
+			</div> 
+			<div class="curso">
+				<img class="curso__img" src="img/tiktok.png" alt="Segurança Digital">
+				<h3 class="curso__titulo">TikTok Impact</h3>
+				<p class="curso__descricao">
+					Domine o algoritmo, crie vídeos autênticos, explore trends e use storytelling para viralizar. Gere engajamento e resultados concretos com criatividade!
+				</p>
+			</div> 
+		</div>
+	</section> 
+
+	<hr>
+
+	<section class="planos" id="planos">
+		<h2 class="section__titulo">Planos</h2>
+		<div class="planos-c">
+			<div class="plano">
+				<h2 class="plano__titulo">Básico</h2>
+				<span class="plano__preco"><sup>R$</sup>1000</span>
+				<hr class="plano__divisor">
+				<ul class="plano-lista">
+					<li class="plano-lista__item">1 mês de acesso ilimitado</li>
+					<li class="plano-lista__item">Acesso a todos os cursos</li>
+					<li class="plano-lista__item">Certificado de conclusão</li>
+				</ul> 
+				<a href="#" class="plano__btn-comprar">Comprar</a>
+			</div> 
+			<div class="plano">
+				<h2 class="plano__titulo">Premium</h2>
+				<span class="plano__preco"><sup>R$</sup>2500</span>
+				<hr class="plano__divisor">
+				<ul class="plano-lista">
+					<li class="plano-lista__item">1 mês de acesso ilimitado</li>
+					<li class="plano-lista__item">Acesso a todos os cursos</li>
+					<li class="plano-lista__item">Certificado de conclusão</li>
+					<li class="plano-lista__item">Suporte</li>
+				</ul> 
+				<a href="#" class="plano__btn-comprar">Comprar</a>
+			</div> 
+			<div class="plano">
+				<h2 class="plano__titulo">Ultra</h2>
+				<span class="plano__preco"><sup>R$</sup>5000</span>
+				<hr class="plano__divisor">
+				<ul class="plano-lista">
+					<li class="plano-lista__item">1 mês de acesso ilimitado</li>
+					<li class="plano-lista__item">Acesso a todos os cursos</li>
+					<li class="plano-lista__item">Certificado de conclusão</li>
+					<li class="plano-lista__item">Suporte</li>
+					<li class="plano-lista__item">Download das aulas</li>
+				</ul>
+				<a href="#" class="plano__btn-comprar">Comprar</a>
+			</div> 
+		</div> 
+	</section> 
+
+	<hr>
+
+	<section class="vantagens" id="vantagens">
+
+		<div class="vantagem">
+			<h2 class="vantagem__titulo">Foco em projeto</h2>
+			<p class="vantagem__descricao">Aprenda na prática, trabalhando em projetos reais que simulam desafios do mercado! Desenvolva habilidades estratégicas e saia preparado para aplicar tudo o que aprendeu..</p>
+		</div>
+
+		<div class="vantagem">
+			<h2 class="vantagem__titulo">Portifólio incrível</h2>
+			<p class="vantagem__descricao">Construa um portfólio profissional que impressiona! Mostre seu trabalho com qualidade, originalidade e resultados, e atraia clientes e oportunidades que realmente importam.</p>
+		</div> 
+
+		<div class="vantagem">
+			<h2 class="vantagem__titulo">Aprenda fazendo</h2>
+			<p class="vantagem__descricao">Teoria é importante, mas aqui você aprende fazendo! Coloque a mão na massa desde o primeiro dia, desenvolvendo projetos e aplicando técnicas que funcionam de verdade.</p>
+		</div>
+		<div class="vantagem">
+			<h2 class="vantagem__titulo">Para todas as idades</h2>
+			<p class="vantagem__descricao">Nunca é cedo ou tarde demais para se tornar um especialista em Social Media! Nossos cursos são acessíveis e eficazes para todas as idades e níveis de experiência.</p>
+		</div> 
+
+		<div class="vantagem">
+			<h2 class="vantagem__titulo">Atualizado</h2>
+			<p class="vantagem__descricao">Mantenha-se à frente com conteúdos sempre atualizados! Aprenda estratégias e ferramentas que funcionam hoje e continue evoluindo com o mercado.</p>
+		</div> 
+
+		<div class="vantagem">
+			<h2 class="vantagem__titulo">Comece Hoje</h2>
+			<p class="vantagem__descricao">Não espere mais para transformar sua carreira! Inscreva-se agora e descubra o poder das redes sociais com a gente.</p>
+		</div> 
+
+	</section>
+
+	<hr>
+
+	<section class="newsletter" id="newsletter">
+		<div class="newsletter-c">
+
+			<div class="newsletter-descricao">
+				<h2 class="newsletter-descricao__titulo">Newsletter</h2>
+				<p class="newsletter-descricao__texto">Assine e fique por dentro <br> das novidades.</p>
+			</div> 
+
+			<div class="newsletter-inscrever">
+				<input class ="newsletter-inscrever__input" type="email" placeholder="Seu e-mail">
+				<a href="#" class="newsletter-inscrever__link">Inscrever-se</a>
+			</div> 
+
+		</div>
+	</section> 
+
+	<footer class="footer">
+		<p class="footer__copyright">2025 Este projeto foi feito por Matheus Macedo. <br> 
+			Todos os direitos reservados 2025
+			
+	
+	</footer>
+	
+	<script src="js/script.js"></script>
+</body>
+</html>
